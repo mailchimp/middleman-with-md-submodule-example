@@ -1,0 +1,7 @@
+<ul>
+  <% sitemap.resources.select { |r| r.url.end_with?(".html") }.each do |resource| %>
+    <% unless resource.data.noindex %>
+      <li><a href="<%= resource.url %>"><%= resource.data.title %></a></li>
+    <% end %>
+  <% end %>
+</ul>

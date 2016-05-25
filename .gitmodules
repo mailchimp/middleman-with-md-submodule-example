@@ -1,0 +1,3 @@
+[submodule "content-style-guide"]
+	path = content-style-guide
+	url = https://github.com/mailchimp/content-style-guide

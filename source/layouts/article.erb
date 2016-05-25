@@ -1,0 +1,5 @@
+<% wrap_layout :layout do %>
+  <%= partial "partials/menu" %>
+  <h1><%= current_resource.data.title %></h1>
+  <%= yield %>
+<% end %>
