@@ -7,8 +7,8 @@ Requires Ruby 2.2.5 and Bundler
 
 Clone the repo:
 ``` bash
-git clone git@github.com:mailchimp/middleman-with-md-submodule-example
-cd middleman-with-md-submodule-example.git
+git clone git@github.com:mailchimp/middleman-with-md-submodule-example.git
+cd middleman-with-md-submodule-example
 ```
 
 Install dependencies:
